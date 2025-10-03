@@ -21,12 +21,12 @@ The app allows users to browse news by category with a clean UI and loader while
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-news-app.git
+   git clone https://github.com/HadiaMushtaq_Dev/news-app.git
    cd react-news-app
    npm install
    npm start
 ## Live Demo
 
- [Click here to view the app](https://your-username.github.io/news-app/)  
+ [Click here to view the app](https://HadiaMushtaq-Dev.github.io/news-app/)  
 
 
