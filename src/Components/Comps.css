@@ -1,0 +1,118 @@
+.nav{
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.nav1{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkslategrey;
+}
+.logo span{
+    color: red;
+}
+nav{
+    width: 70%;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.link1{
+    text-decoration: none;
+    color: darkslategrey;
+    padding: 2vh;
+}
+.link1:hover{
+    background-color: red;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: darkslategrey;
+    padding: 2vh;
+      background-color: red;
+    color: white;
+}
+.loader{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    border:5px solid red;
+    border-top: 5px solid white;
+    animation: loading 2s linear forwards infinite;
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+}
+.icon{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 70%;
+    top: 25%;
+    z-index: 1000;
+    background-color: white;
+ 
+   cursor: pointer;
+   border: 2px solid slategrey;
+   /* margin-right: 2vh; */
+   padding: 2vh;
+   min-width: 30%;
+   display: none;
+
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: darkslategrey;
+    /* display: flex; */
+    margin: 2vh 0 0 0 ;
+}
+.footer1{
+    width: 90%;
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer1 p{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(50deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@media (max-width:1150px) {
+    nav{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+}
